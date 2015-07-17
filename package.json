@@ -1,0 +1,33 @@
+{
+  "name": "dipswitch-postgres",
+  "version": "1.0.0",
+  "description": "postgres store for dipswitch",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lanetix/node-dipswitch-postgres"
+  },
+  "keywords": [
+    "dipswitch",
+    "postgres"
+  ],
+  "author": "Mike Atkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lanetix/node-dipswitch-postgres/issues"
+  },
+  "homepage": "https://github.com/lanetix/node-dipswitch-postgres",
+  "devDependencies": {
+    "standard": "^4.5.4",
+    "trap": "^0.4.2"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "lodash.pluck": "^3.1.2",
+    "pg-connect": "^1.0.0",
+    "pg-require-sql": "^1.0.0"
+  }
+}
