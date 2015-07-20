@@ -1,0 +1,1 @@
+TRUNCATE dipswitch_features
