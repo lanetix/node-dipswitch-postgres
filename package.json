@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "bluebird": "^2.9.34",
+    "dipswitch": "^4.0.2",
     "is-array": "^1.0.1",
     "lodash.pluck": "^3.1.2",
     "node-postgres-named": "^2.2.0",
