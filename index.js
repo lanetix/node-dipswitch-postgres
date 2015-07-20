@@ -69,6 +69,9 @@ module.exports = function (config) {
           sql.getFeatureSegments({ keys: keys })
         )
       })
+      .then(function (results) {
+        return pluck(results.rows, 'value')
+      })
     },
     hsetAsync: function (hash, key, value) {
       return createTables
