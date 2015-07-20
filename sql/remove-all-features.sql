@@ -1,1 +1,1 @@
-DELETE FROM dipswitch_features
+TRUNCATE dipswitch_features
