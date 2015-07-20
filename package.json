@@ -21,13 +21,12 @@
   },
   "homepage": "https://github.com/lanetix/node-dipswitch-postgres",
   "devDependencies": {
-    "dipswitch": "^4.0.1",
+    "dipswitch": "^4.0.2",
     "standard": "^4.5.4",
     "trap": "^0.4.2"
   },
   "dependencies": {
     "bluebird": "^2.9.34",
-    "dipswitch": "^4.0.2",
     "is-array": "^1.0.1",
     "lodash.pluck": "^3.1.2",
     "node-postgres-named": "^2.2.0",
